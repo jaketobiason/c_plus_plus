@@ -10,7 +10,7 @@ int main()
   int yamcosts[3] = {20, 30, 5};
 
   std::cout << "Total yams = ";
-  std::cout << yams[0] + yams[1] + yams[2] + yams[3] << std::endl;
+  std::cout << yams[0] + yams[1] + yams[2] << std::endl;
   std::cout << "The package with " << yams[1] << " yams costs " << yamcosts[1] << " cents per yam.\n";
   int total = yams[0] * yamcosts[0] + yams[1] * yamcosts[1];
   total = total + yams[2] * yamcosts[2];
